@@ -3,14 +3,14 @@ def print_plot_1d(function, x_min, x_max, point_count):
     for i in range (point_count):
         x = x_min + dx * i
         y = function(x)
-        point = '' * int(y) + '.'
-        print(count)
+        point = ' ' * int(y) + '▪️'
+        print (point)
 
 def f(x):
-    return x * x_max
-min = 0
-max = 10
+    return x
+
+x_min = 0
+x_max = 10
 points = 10
 
-
-print_plot_1d(f,min,max,points)
+print_plot_1d(f,x_min,x_max,points)
