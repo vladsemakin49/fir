@@ -12,6 +12,4 @@ def f(x):
 x_min = 0
 x_max = 10
 points = 10
-
-print_plot_1d(f,x_min,x_max,points)
-dd
+pbcopy < ~/.ssh/YourKeyFile.pub
