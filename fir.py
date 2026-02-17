@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# печатает летнюю крону ели
 def summer_crown():
     print("        Ш        ")
     print("       ШШШ       ")
@@ -7,8 +5,6 @@ def summer_crown():
     print("     ШШШШШШШ     ")
     print("    ШШШШШШШШШ    ")
     print("   ШШШШШШШШШШШ   ")
-
-# печатает осеннюю крону ели
 def autumn_crown():
     print("        О        ")
     print("       ООО       ")
@@ -16,8 +12,6 @@ def autumn_crown():
     print("     ООООООО     ")
     print("    ООООООООО    ")
     print("   ООООООООООО   ")
-
-# печатает зимнюю крону ели
 def winter_crown():
     print("        З        ")
     print("       ЗЗЗ       ")
@@ -25,8 +19,6 @@ def winter_crown():
     print("     ЗЗЗЗЗЗЗ     ")
     print("    ЗЗЗЗЗЗЗЗЗ    ")
     print("   ЗЗЗЗЗЗЗЗЗЗЗ   ")
-
-# печатает осеннюю крону ели
 def spring_crown():
     print("        В        ")
     print("       ВВВ       ")
@@ -34,61 +26,10 @@ def spring_crown():
     print("     ВВВВВВВ     ")
     print("    ВВВВВВВВВ    ")
     print("   ВВВВВВВВВВВ   ")
-
-# печатает ствол ели
 def trunk():
     print("        H        ")
 
 isSummer = True
 
-# если лето
 if isSummer:
 	summer_crown()
-=======
-# печатает летнюю крону ели
-def summer_crown():
-    print("        Ш        ")
-    print("       ШШШ       ")
-    print("      ШШШШШ      ")
-    print("     ШШШШШШШ     ")
-    print("    ШШШШШШШШШ    ")
-    print("   ШШШШШШШШШШШ   ")
-
-# печатает осеннюю крону ели
-def autumn_crown():
-    print("        О        ")
-    print("       ООО       ")
-    print("      ООООО      ")
-    print("     ООООООО     ")
-    print("    ООООООООО    ")
-    print("   ООООООООООО   ")
-
-# печатает зимнюю крону ели
-def winter_crown():
-    print("        З        ")
-    print("       ЗЗЗ       ")
-    print("      ЗЗЗЗЗ      ")
-    print("     ЗЗЗЗЗЗЗ     ")
-    print("    ЗЗЗЗЗЗЗЗЗ    ")
-    print("   ЗЗЗЗЗЗЗЗЗЗЗ   ")
-
-# печатает осеннюю крону ели
-def spring_crown():
-    print("        В        ")
-    print("       ВВВ       ")
-    print("      ВВВВВ      ")
-    print("     ВВВВВВВ     ")
-    print("    ВВВВВВВВВ    ")
-    print("   ВВВВВВВВВВВ   ")
-
-# печатает ствол ели
-def trunk():
-    print("        H        ")
-
-isSummer = True
-
-# если лето
-if isSummer:
-	summer_crown()
->>>>>>> 90aace1a43feaef24c64d9e8a7e9aadaf8678c19
-	trunk()
